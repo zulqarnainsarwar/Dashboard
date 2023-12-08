@@ -1,10 +1,12 @@
 import React from "react";
-import DashboardSkeleton from "../../ui/skeletons";
+import DashboardSkeleton from "@/app/ui/skeletons";
 
 const loading = () => {
-  return <div>
-    <DashboardSkeleton/>
-  </div>;
+  return (
+    <div>
+      <DashboardSkeleton />
+    </div>
+  );
 };
 
 export default loading;
